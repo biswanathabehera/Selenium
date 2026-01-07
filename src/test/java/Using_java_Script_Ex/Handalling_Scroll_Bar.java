@@ -39,7 +39,7 @@ public class Handalling_Scroll_Bar {
 		Thread.sleep(3000);
 		
 		//scroll till button of the element
-		js.executeScript("windoe scrollBy(0,document.body.scrollHeight)");
+		js.executeScript("window.scrollBy(0,document.body.scrollHeight)");
 		Thread.sleep(3000);
 		
 		//scroll till top of the webpage
