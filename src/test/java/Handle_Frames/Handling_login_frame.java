@@ -6,8 +6,6 @@ import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
 
-
-
 public class Handling_login_frame {
 
 	public static void main(String[] args) throws InterruptedException {
@@ -34,17 +32,12 @@ public class Handling_login_frame {
 		
 		driver.switchTo().defaultContent();
 		
+		
 		Thread.sleep(2000);
 		
 		driver.findElement(By.xpath("//a[text()='Add restaurant']")).click();
 		Thread.sleep(3000);
 		driver.quit();
-		
-		
-		
-		
-		
-
 	}
 
 }

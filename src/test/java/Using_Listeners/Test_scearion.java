@@ -8,6 +8,6 @@ public class Test_scearion extends BaseClass {
 
 	@Test
 	public void demo3() {
-		System.out.println("");
+		System.out.println("Test Sript");
 	}
 }

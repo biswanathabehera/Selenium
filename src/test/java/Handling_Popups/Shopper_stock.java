@@ -35,6 +35,7 @@ public class Shopper_stock {
 		WebElement hover = driver.findElement(By.xpath("//a[text()='Kids']"));
 		act.moveToElement(hover).perform();
 		
+		
        Thread.sleep(3000);
 		
 		driver.findElement(By.xpath("//a[text()='T-Shirts']")).click();

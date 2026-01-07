@@ -3,19 +3,14 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="Using_Listeners.TextExcution">
+      <class name="partice_Listeners.Google_TitleTest">
         <methods>
-          <include name="ac"/>
-          <include name="bt"/>
-          <include name="as"/>
-          <include name="at"/>
-          <include name="demo"/>
-          <include name="bc"/>
-          <include name="bs"/>
-          <include name="bm"/>
-          <include name="am"/>
+          <include name="Teardown"/>
+          <include name="launch"/>
+          <include name="Zomato"/>
+          <include name="Redbus"/>
         </methods>
-      </class> <!-- Using_Listeners.TextExcution -->
+      </class> <!-- partice_Listeners.Google_TitleTest -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->
